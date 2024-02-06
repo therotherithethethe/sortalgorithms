@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>practical work</title>
+</head>
+<body>
+<label>
+  <textarea id="arrTextArea" readonly rows="5" cols="40" style="font-size: 15px;"></textarea>
+</label>
+<div>
+
+  <div>
+    <label>
+      <textarea id="arrLength" placeholder="arr length" rows="1" cols="9"></textarea>
+    </label>
+  </div>
+  <label>
+    <textarea id="minNumForArr" rows="1" cols="7" placeholder="min"></textarea>
+    <textarea id="maxNumForArr" rows="1" cols="7" placeholder="max"></textarea>
+  </label>
+  <div>
+    <button type="submit" onclick="genArrButton()">generate random arr</button>
+  </div>
+  <div>
+    <button type="submit" onclick="bubbleSort()">bubble sort</button>
+    <button type="submit" onclick="insertSort()">insert sort</button>
+    <button type="submit" onclick="selectSort()">select sort</button>
+    <button type="submit" onclick="qsButton()">quick sort</button>
+    <button type="submit" onclick="msButton()">merge sort</button>
+    <p id="timer">0 ms</p>
+  </div>
+
+</div>
+
+
+
+</body>
+<script src="hello.js"></script>
+</html>
